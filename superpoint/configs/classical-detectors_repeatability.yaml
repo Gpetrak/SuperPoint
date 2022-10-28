@@ -9,9 +9,9 @@ data:
 model:
     name: 'classical_detectors'
     method: 'harris'  # 'shi' 'fast' 'random'
-    batch_size: 50  # unused
+    batch_size: 5  # unused
     learning_rate: 0.001  # unused
-    nms: 4
-    top_k: 600
-eval_iter: 600
+    nms: 8
+    top_k: 1000
+eval_iter: 1000
 seed: 1

@@ -41,7 +41,7 @@ data:
             valid_border_margin: 2
 model:
     name: 'magic_point'
-    batch_size: 1
+    batch_size: 2
     eval_batch_size: 1
     learning_rate: 0.001
     kernel_reg: 0.
