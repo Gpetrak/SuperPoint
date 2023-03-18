@@ -38,7 +38,8 @@ class Unstructured(BaseDataset):
     }
 
     def _init_dataset(self, **config):
-        base_path = Path(DATA_PATH, 'unstructured_custom_dataset/images_all/')
+        # base_path = Path(DATA_PATH, 'unstructured_custom_dataset/images_all/')
+        base_path = Path(DATA_PATH, 'lunar_dataset/images_res/')
         image_paths = list(base_path.iterdir())
         if config['truncate']:
             image_paths = image_paths[:config['truncate']]

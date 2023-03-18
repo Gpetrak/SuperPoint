@@ -2,7 +2,7 @@ data:
     name: 'unstructured'
     cache_in_memory: false
     validation_size: 96
-    labels: outputs/superpoint_unstructured-export2  # use your own labels here
+    labels: outputs/magic-point_unstructured-exportV2  # use your own labels here
     augmentation:
         photometric:
             enable: true
@@ -36,8 +36,8 @@ data:
         valid_border_margin: 3
 model:
     name: 'super_point'
-    batch_size: 1
-    eval_batch_size: 1
+    batch_size: 2
+    eval_batch_size: 2
     learning_rate: 0.0001
     lambda_d: 0.05
     positive_margin: 1
@@ -47,6 +47,6 @@ model:
     nms: 4
     # top_k: 600
 #train_iter: 600000
-train_iter: 10000
+train_iter: 220000
 #validation_interval: 5000
 validation_interval: 1000

@@ -1,6 +1,6 @@
 data:
     name: 'unstructured'
-    labels: outputs/magic-point_synth_unstructured-export1  # Complete with your export labels
+    labels: outputs/magic-point_unstructured-exportV1  # Complete with your export labels
     cache_in_memory: false
     validation_size: 192
     augmentation:

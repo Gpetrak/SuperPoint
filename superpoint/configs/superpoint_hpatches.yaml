@@ -1,7 +1,8 @@
 data:
     name: 'patches_dataset'
-    dataset: 'hpatches'  # 'coco' 'hpatches'
-    alteration: 'i'  # 'all' 'i' 'v'
+    # dataset: 'unstructured_patches'  # 'coco' 'hpatches'
+    dataset: 'hpatches'
+    alteration: 'v'  # 'all' 'i' 'v'
     preprocessing:
         resize: [480, 640]  # False for coco
 model:
